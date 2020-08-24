@@ -13,10 +13,9 @@
     "psalm/prophecy-shim": "self.version"
   },
   "require": {
-    "phpunit/phpunit": "6.0 - 9.0",
-    "php": ">= 5.4"
+    "phpspec/prophecy-phpunit": "^2.0"
   },
-  "autoload": {
-    "Prophecy\\PhpUnit\\": "src/"
+  "autoload-dev": {
+    "Weirdan\\ProphecyShim\\Tests\\" : "tests/"
   }
 }
