@@ -1,0 +1,19 @@
+{
+  "name": "weirdan/prophecy-shim",
+  "description": "Compatibility shim to be able to use ProphecyTrait with older PHPUnit versions",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bruce Weirdan",
+      "email": "weirdan@gmail.com"
+    }
+  ],
+  "require": {
+    "phpunit/phpunit": "6.0 - 9.0",
+    "php": ">= 5.4"
+  },
+  "autoload": {
+    "Prophecy\\PhpUnit\\": "src/"
+  }
+}
