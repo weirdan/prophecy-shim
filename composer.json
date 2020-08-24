@@ -9,9 +9,6 @@
       "email": "weirdan@gmail.com"
     }
   ],
-  "provide": {
-    "psalm/prophecy-shim": "self.version"
-  },
   "require": {
     "phpspec/prophecy-phpunit": "^2.0"
   },
