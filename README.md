@@ -19,7 +19,7 @@ version.
 ## Installation
 
 ```console
-composer require --dev psalm/prophecy-shim:'^1.0 || ^2.0'
+composer require --dev weirdan/prophecy-shim:'^1.0 || ^2.0'
 ```
 
 ## Usage
