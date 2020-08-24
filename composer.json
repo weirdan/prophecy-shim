@@ -17,6 +17,8 @@
     "php": ">= 5.4"
   },
   "autoload": {
-    "Prophecy\\PhpUnit\\": "src/"
+    "psr-4": {
+      "Prophecy\\PhpUnit\\": "src/"
+    }
   }
 }
