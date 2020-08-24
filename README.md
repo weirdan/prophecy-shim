@@ -31,7 +31,7 @@ namespace Your\Tests;
 
 use PHPUnit\Framework\TestCase;
 
-// The following trait it provided either by the shim or by phpspec/prophecy-phpunit
+// The following trait is provided either by the shim or by phpspec/prophecy-phpunit
 use Prophecy\PhpUnit\ProphecyTrait;
 
 class YourTest extends TestCase
